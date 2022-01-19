@@ -1,0 +1,45 @@
+
+.container{
+    width:300px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 1px solid #df7171;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.User-name , .form-group{
+   
+    width: 100%;
+
+    border: 1px solid #d68484;
+    padding: 5px;
+    
+    border-radius: 10px;
+    background-color: #ceadad;
+    box-shadow: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+ 
+ .log{
+     display: flex;
+     justify-content: center;
+    width: 100%;
+    margin: 5px 0;
+    background-color: dodgerblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px
+} 
+
+.name{
+    width: 50px;
+}
